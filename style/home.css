@@ -1,0 +1,8 @@
+a.kc_button {
+    text-decoration: none;
+}
+@media screen and (max-width: 999px) {
+    body.kc-css-system .kc-css-947078 {
+        margin-top: -20px;
+    }
+}

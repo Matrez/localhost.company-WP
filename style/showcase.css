@@ -1,0 +1,31 @@
+h5 {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.showcase-project { /* for showcase-button class */
+    display: none;
+}
+img.image-border {
+    -webkit-transition: transform 0.5s ease;
+    -moz-transition: transform 0.5s ease;
+    -ms-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;
+}
+img.image-border:hover {
+    -webkit-transform: scale(1.05) rotate(-0.5deg);
+    -moz-transform: scale(1.05) rotate(-0.5deg);
+    -ms-transform: scale(1.05) rotate(-0.5deg);
+    -o-transform: scale(1.05) rotate(-0.5deg);
+    transform: scale(1.05) rotate(-0.5deg);
+    -webkit-transition: transform 0.25s ease;
+    -moz-transition: transform 0.25s ease;
+    -ms-transition: transform 0.25s ease;
+    -o-transition: transform 0.25s ease;
+    transition: transform 0.25s ease;
+}
+@media screen and (max-width: 767px){
+    .the_content_wrapper {
+        margin: 0;
+    }
+}

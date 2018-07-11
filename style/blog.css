@@ -1,0 +1,26 @@
+/* Subheader */
+#Subheader {
+    display: block !important;
+    height: 30rem;
+    background-size: cover;
+}
+h2 {
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 700;
+}
+.post-desc {
+    padding-top: 0;
+}
+.post-footer {
+    position: absolute;
+    bottom: 0;
+    width: 60%;
+}
+@media screen and (max-width: 1239px) {
+    .post-footer {
+        position: inherit;
+        bottom: auto;
+        width: auto;
+    }
+}

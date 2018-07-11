@@ -1,0 +1,101 @@
+a.kc_button {
+    text-decoration: none;
+}
+
+.kc_tabs > .kc_wrapper > .kc_tabs_nav {
+    line-height: 0;
+}
+
+.mt-career {
+    padding-top: 5%;
+    -webkit-transition: background-color 500ms ease-in-out;
+    -moz-transition: background-color 500ms ease-in-out;
+    -ms-transition: background-color 500ms ease-in-out;
+    -o-transition: background-color 500ms ease-in-out;
+    transition: background-color 500ms ease-in-out;
+}
+
+.mt-career:hover {
+    background-color: #fcfcfc !important;
+}
+
+.ui-tabs .ui-tabs-nav li a {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.ui-tabs {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+.kc_tabs_nav > .ui-tabs-active > a, .kc_tabs_nav > li:hover, .kc_tabs_nav > li > a:hover {
+    background-color: #eee;
+    color: #333;
+}
+
+.kc_tabs_nav > li {
+    border-bottom: 1px solid #e9e6e6 !important;
+}
+
+.kc_tabs_nav > li.ui-tabs-active {
+    border-bottom: 1px solid white !important;
+}
+
+.kc-section-active {
+    border-top: none !important;
+}
+
+.carousel-image a {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    display: block;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+}
+
+.inner-carousel-image {
+    padding: 23%;
+}
+
+@media screen and (max-width: 767px) {
+    .mt-career {
+        padding-top: 5%;
+        height: 220px !important;
+        border: 1px solid #e9e6e6 !important;
+        border-bottom: none !important;
+    }
+
+    .mt-career:last-of-type {
+        border-bottom: 1px solid #e9e6e6 !important;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .mt-career {
+        padding-top: 3%;
+        height: 250px !important;
+    }
+
+    .ui-tabs .ui-tabs-nav li a {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .ui-tabs .ui-tabs-nav li a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1239px ) and (min-width: 960px) {
+    .ui-tabs .ui-tabs-nav li a {
+        font-size: 15px;
+    }
+}

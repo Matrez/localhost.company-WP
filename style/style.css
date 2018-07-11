@@ -1,0 +1,137 @@
+/* Logo */
+#Top_bar .logo {
+    margin-left: 55px;
+}
+
+/* Tables */
+.hours {
+    font-size: 140%;
+}
+
+.hours .c1, .hours .c2 {
+    text-align: left;
+    border-width: 0 0 1px 0;
+    border-color: rgba(255, 255, 255, .3);
+}
+
+.hours .c1 {
+    font-weight: 700;
+}
+
+.offer_table {
+    font-size: 140%;
+}
+
+.offer_table .c1, .offer_table .c2 {
+    border-width: 0 0 1px 0 !important;
+    border-color: rgba(0, 0, 0, .1);
+    padding: 20px 5px;
+    color: #20292c;
+}
+
+.offer_table .c1 {
+    font-weight: 700;
+    text-align: left;
+}
+
+.offer_table .c2 {
+    text-align: right;
+}
+
+.offer_table th {
+    font-weight: 700;
+    font-size: 180%;
+}
+
+/* Portfolio */
+.portfolio-photo .portfolio-item .portfolio-details .details .title {
+    color: #20292c;
+    font-size: 33px;
+    line-height: 35px;
+}
+
+/* Home margins */
+.tuning_portfolio,
+.tuning_map {
+    margin-top: 70px !important;
+}
+
+/* Chart box */
+.chart_box > p {
+    color: #20292c;
+    font-size: 140%;
+    font-weight: 500;
+}
+
+/* Counter */
+.counter .desc_wrapper .number-wrapper {
+    margin-bottom: 15px;
+}
+
+.counter .desc_wrapper .title {
+    color: #20292c;
+    font-size: 140%;
+    font-weight: 500;
+}
+
+/* Footer */
+#Footer .container {
+    max-width: 98%;
+    width: 98%;
+}
+
+/* Decoration classes */
+.gray-filter {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+/* Subheader */
+#Subheader {
+    display: none;
+}
+
+.themecolor {
+    color: #e60000 !important;
+}
+
+/* Contact form styling */
+.asterisk {
+    font-size: 25px;
+    vertical-align: bottom;
+}
+
+input[type="date"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, select:focus, textarea:focus {
+    color: #e60000;
+    background-color: rgba(254, 0, 0, 0.1) !important;
+    border-color: #000000;
+}
+span.wpcf7-list-item {
+    margin: 0;
+}
+
+/* Blog styling */
+a.tag-cloud-link {
+    font-size: 14px !important;
+}
+
+/* Image Styling */
+.image-border {
+    border: 8px solid #f8f8f8;
+}
+
+/* Footer remove */
+.footer_copy {
+    display: none;
+}
+
+/* Selection color */
+::selection {
+    background: #e60000;
+    color: white;
+}
+
+/*::selection { background: #ff0000; color: white; }*/
