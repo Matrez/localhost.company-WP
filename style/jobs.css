@@ -60,6 +60,10 @@ a.kc_button {
     z-index: 20;
 }
 
+.carousel-image a:before {
+    background-image: url(https://localhost.company/wp-content/uploads/2018/07/instagram_bg.jpg);
+}
+
 .inner-carousel-image {
     padding: 23%;
 }
