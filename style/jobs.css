@@ -47,27 +47,6 @@ a.kc_button {
     border-top: none !important;
 }
 
-.carousel-image a {
-    text-align: center;
-    color: #fff;
-    text-decoration: none;
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    display: block;
-    height: 100%;
-    width: 100%;
-    z-index: 20;
-}
-
-.carousel-image a:before {
-    background-image: url(https://localhost.company/wp-content/uploads/2018/07/instagram_bg.jpg);
-}
-
-.inner-carousel-image {
-    padding: 23%;
-}
-
 @media screen and (max-width: 767px) {
     .mt-career {
         padding-top: 5%;
