@@ -4,23 +4,198 @@
     height: 30rem;
     background-size: cover;
 }
-h2 {
-    font-size: 48px;
-    line-height: 50px;
-    font-weight: 700;
+
+/* Sidebar edit */
+.aside_right .widget:after {
+    display: none;
 }
+
+.aside_right .widget-area {
+    border-left: none;
+}
+
+.widget-area:before {
+    background: none;
+}
+
+.widget-area h3 {
+    color: #20292c;
+}
+
+.widget_categories ul {
+    background: none;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.widget_categories ul li a {
+    color: #626262 !important;
+    -webkit-transition: ease-out 300ms;
+    -moz-transition: ease-out 300ms;
+    -ms-transition: ease-out 300ms;
+    -o-transition: ease-out 300ms;
+    transition: ease-out 300ms;
+}
+
+.widget_categories ul li a:hover {
+    color: #e60000 !important;
+    text-decoration: none;
+}
+
+#searchform input.field {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #fcfcfc !important;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.instagram-pics li {
+    width: 50%;
+    display: inline-block;
+}
+
+.instagram-pics li:nth-of-type(odd) {
+    padding-right: 7px;
+    padding-bottom: 4px;
+}
+
+.instagram-pics li:nth-of-type(even) {
+    padding-left: 7px;
+    padding-bottom: 4px;
+}
+
+.widget_recent_entries ul li a {
+    border-bottom: none;
+}
+
+aside#search-4 {
+    margin-top: 25px;
+}
+
+.with_aside .content_wrapper {
+    max-width: 1350px !important;
+    padding-left: 55px;
+}
+
+.post-meta .author-date a {
+    border: none;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 500;
+}
+
 .post-desc {
     padding-top: 0;
 }
+
+.post-links {
+    border-left: none !important;
+    -webkit-transition: ease-out 300ms;
+    -moz-transition: ease-out 300ms;
+    -ms-transition: ease-out 300ms;
+    -o-transition: ease-out 300ms;
+    transition: ease-out 300ms;
+    left: 0;
+}
+
+.post-links:hover {
+    left: 5px;
+}
+
+.post-links:hover > .fa-angle-double-right, .post-links:hover > a {
+    color: #e60000 !important;
+    text-decoration: none;
+}
+
+.post-links a {
+    color: #626262;
+    -webkit-transition: ease-out 300ms;
+    -moz-transition: ease-out 300ms;
+    -ms-transition: ease-out 300ms;
+    -o-transition: ease-out 300ms;
+    transition: ease-out 300ms;
+}
+
 .post-footer {
     position: absolute;
     bottom: 0;
     width: 60%;
+    background: none !important;
 }
+
+.image_frame {
+    border: none !important;
+}
+
+.textwidget svg.svg-inline--fa {
+    font-size: 30px;
+    margin-left: 10px;
+    color: #a6a8a9;
+    -webkit-transition: ease-out 300ms;
+    -moz-transition: ease-out 300ms;
+    -ms-transition: ease-out 300ms;
+    -o-transition: ease-out 300ms;
+    transition: ease-out 300ms;
+}
+
+.textwidget svg.svg-inline--fa:hover {
+    color: #e60000;
+}
+
+.fa-angle-double-right {
+    margin-left: 5px;
+    color: #626262;
+    -webkit-transition: ease-out 300ms;
+    -moz-transition: ease-out 300ms;
+    -ms-transition: ease-out 300ms;
+    -o-transition: ease-out 300ms;
+    transition: ease-out 300ms;
+}
+
 @media screen and (max-width: 1239px) {
     .post-footer {
         position: inherit;
         bottom: auto;
         width: auto;
     }
+}
+
+/* Hover Effects */
+
+/* Underline From Left */
+.hvr-underline-from-left {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #e60000;
+    height: 2px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+    right: 0;
 }
