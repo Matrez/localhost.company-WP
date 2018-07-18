@@ -30,11 +30,12 @@ jQuery(function ($) {
 });
 
 /* insert arrow icon instead of document icon */
-jQuery(function ($) {
+/*jQuery(function ($) {
     $('.icon-doc-text').each(function () {
         $(this).removeClass('icon-doc-text').addClass('fas fa-angle-double-right');
     });
 });
+*/
 
 /* arrow reorder before read more */
 jQuery(function ($) {
@@ -52,8 +53,12 @@ jQuery(function ($) {
 });
 
 /* add another person icon */
-/*jQuery(function ($) {
+jQuery(function ($) {
     $('.icon-user').each(function () {
-        $(this).removeClass('icon-user').addClass();
+        $(this).removeClass('icon-user').addClass('far fa-user');
     });
-});*/
+});
+
+jQuery(function ($) {
+    $('#searchform input.field').attr("placeholder", $.parseHTML("&#xf002;")[0].data);
+});

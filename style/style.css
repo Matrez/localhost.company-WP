@@ -3,6 +3,14 @@
     margin-left: 55px;
 }
 
+#Wrapper, #Content, #Footer {
+    background-color: white !important;
+}
+
+#Top_bar {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1);
+}
+
 /* Tables */
 .hours {
     font-size: 140%;
@@ -109,6 +117,7 @@ input[type="date"]:focus, input[type="email"]:focus, input[type="number"]:focus,
     background-color: rgba(254, 0, 0, 0.1) !important;
     border-color: #000000;
 }
+
 span.wpcf7-list-item {
     margin: 0;
 }
