@@ -35,7 +35,8 @@ a.kc_button {
 }
 
 .mt-career:nth-child(3):after {
-    height: calc(100% + 90px);
+    height: calc(100% + 120px);
+    top: -60px;
 }
 
 .mt-career:before {
@@ -104,6 +105,26 @@ a.kc_button {
     padding: 0 0 30px 0 !important;
 }
 
+code, q {
+    padding: 0;
+    white-space: nowrap;
+    margin: 0 2px;
+    color: #20292c;
+    font-family: inherit !important;
+    border: none;
+    background: none;
+}
+
+a.kc_button.jobsButton {
+    border-radius: 0 !important;
+    color: white !important;
+}
+
+a.kc_button.jobsButton:hover {
+    border-radius: 0 !important;
+    color: white !important;
+}
+
 /* test na hover cerveny */
 .mt-career:hover {
     background-color: #e60000 !important;
@@ -128,6 +149,9 @@ a.kc_button {
 
 a.kc_button:hover {
     color: black !important;
+    -webkit-border-radius: 7px !important;
+    -moz-border-radius: 7px !important;
+    border-radius: 7px !important;
 }
 
 .style-simple .ui-tabs .ui-tabs-nav li {

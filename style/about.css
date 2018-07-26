@@ -1,0 +1,15 @@
+a.kc_button {
+    text-decoration: none;
+}
+
+.kc-blog-posts .kc-post-2-button:hover {
+    border-color: #e60000;
+    background: #e60000;
+    color: #fff;
+}
+
+@media screen and (max-width: 1405px) {
+    #whatWeDoRow {
+        margin-top: 20px;
+    }
+}
