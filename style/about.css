@@ -8,7 +8,24 @@ a.kc_button {
     color: #fff;
 }
 
-@media screen and (max-width: 1405px) {
+.logoBorder {
+    border-right: 1px solid #a6a8a9;
+}
+
+.logoBorder:last-child {
+    border-right: none;
+}
+
+.seColumn .kc-raw-code, .dtColumn .kc-raw-code, .imColumn .kc-raw-code, .doColumn .kc-raw-code {
+    text-align: center;
+    padding-top: 20%;
+}
+
+.imColumn .kc-raw-code svg {
+    width: 177px;
+}
+
+@media screen and (max-width: 1700px) {
     #whatWeDoRow {
         margin-top: 20px;
     }

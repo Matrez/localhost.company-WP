@@ -3,6 +3,7 @@
     display: block !important;
     height: 30rem;
     background-size: cover;
+    background-position: center;
 }
 
 /* Sidebar edit */
@@ -74,6 +75,54 @@
 
 aside#search-4 {
     margin-top: 25px;
+}
+
+/* Recet posts edit */
+
+.widget_mfn_recent_posts h3 {
+    margin-bottom: 27px;
+}
+
+.Recent_posts .post .photo {
+    display: none;
+}
+
+.Recent_posts .post .desc .date {
+    display: none;
+}
+
+.Recent_posts ul li .desc h6 {
+    border-bottom: none;
+    color: #626262;
+    margin-top: 0 !important;
+    padding-left: 3px;
+}
+
+.Recent_posts.blog_news ul li {
+    margin-bottom: 14px;
+}
+
+.Recent_posts.blog_news ul li .desc:hover > h6 {
+    color: #e60000;
+}
+
+.Recent_posts.blog_news ul li .desc {
+    margin-left: 0;
+    padding: 0;
+}
+
+.Recent_posts ul li .desc {
+    min-height: 0;
+}
+
+/* Tag cloud edit */
+
+.tagcloud a {
+    padding: 5px 10px;
+    display: inline-block;
+    background: #e60000;
+    color: aliceblue;
+    margin-bottom: 10px;
 }
 
 /* End of sidebar edit */
@@ -174,10 +223,6 @@ h2 {
 .icon-doc-text:before {
     content: '\e916';
 }
-
-/*.icon-user:before {
-    content: '\e94d';
-}*/
 
 .post-excerpt:after {
     content: '...';

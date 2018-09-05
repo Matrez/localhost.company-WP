@@ -1,5 +1,6 @@
-.cf7p-message .wpcf7-validation-errors {
-    background-color: #e60000 !important;
-    width: 100%;
-    margin: 0 !important;
+.osrs-link {
+    text-decoration: underline;
+}
+.osrs-link:hover {
+    text-decoration: none !important;
 }

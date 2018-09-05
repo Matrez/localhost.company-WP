@@ -3,14 +3,15 @@ jQuery(function ($) {
     $(function () {
         $(".showcase-button").click(function (e) {
             e.preventDefault();
-            let hiddenProjects = $(".showcase-project:hidden");
+            var hiddenProjects = $(".showcase-project:hidden");
             $(".showcase-project:hidden").slice(0, 4).addClass("animated fadeInUp");
             $(".showcase-project:hidden").slice(0, 4).show();
             $("html, body").animate({
                 scrollTop: $(hiddenProjects[0]).offset().top - 180
-            }, 750);
+            }, 500);
             if ($(".showcase-project:hidden").length == 0) {
-                $(".showcase-button").hide();
+                $(".showcase-button").closest("section").hide();
+                $(".interested-button").attr("style", "display: inline-block;");
             }
         });
     });
@@ -28,7 +29,7 @@ jQuery(function ($) {
 /* blog reorder head with title */
 jQuery(function ($) {
     $('.post-desc > .post-title').each(function () {
-        let previous = $(this).prev();
+        var previous = $(this).prev();
         $(this).insertBefore(previous);
     });
 });
@@ -36,7 +37,7 @@ jQuery(function ($) {
 /* arrow reorder before read more */
 jQuery(function ($) {
     $('.post-more').each(function () {
-        let previous = $(this).prev();
+        var previous = $(this).prev();
         $(this).insertBefore(previous);
     });
 });
@@ -68,3 +69,12 @@ jQuery(function ($) {
         }, 750);
     })
 });
+
+document.querySelector('.wpcf7-file').onchange = function () {
+    let path = this.value;
+    path = path.replace(/.*[\/\\]/, '');
+    if (path !== '') {
+        let changedElement = document.querySelector('.changedText');
+        changedElement.innerHTML = path;
+    }
+};

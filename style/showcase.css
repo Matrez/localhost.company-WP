@@ -2,8 +2,17 @@ h5 {
     font-weight: 500;
     margin-bottom: 8px;
 }
+.showcase-button:focus {
+    outline: none;
+}
 .showcase-project { /* for showcase-button class */
     display: none;
+}
+.interested-button {
+    display: none;
+}
+.interested-button:hover {
+    text-decoration: none;
 }
 img.image-border {
     -webkit-transition: transform 0.5s ease;

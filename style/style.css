@@ -51,6 +51,22 @@
     font-size: 180%;
 }
 
+/* Input type file styling for job positions */
+.wpcf7-form-control-wrap.your-file {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute !important;
+    z-index: -1;
+}
+
+.cvStyling {
+    border: 1px dashed #a4a7a9;
+    padding: 20px;
+    cursor: pointer;
+}
+
 /* Portfolio */
 .portfolio-photo .portfolio-item .portfolio-details .details .title {
     color: #20292c;
@@ -122,14 +138,32 @@ span.wpcf7-list-item {
     margin: 0;
 }
 
+div.wpcf7-mail-sent-ok {
+    border: 2px solid #398f14;
+    margin: 0 !important;
+    width: 100%;
+}
+
+.cf7p-message .wpcf7-validation-errors {
+    background-color: #e60000 !important;
+    width: 100%;
+    margin: 0 !important;
+}
+
 /* Blog styling */
 a.tag-cloud-link {
     font-size: 14px !important;
 }
 
+/* Single post styling */
+.post-nav {
+    background-image: none;
+    padding-left: 0 !important;
+}
+
 /* Image Styling */
 .image-border {
-    border: 8px solid #f8f8f8;
+    border: 1px solid #a4a7a9;
 }
 
 /* Footer remove */
