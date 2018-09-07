@@ -217,6 +217,7 @@ a.kc_button:hover {
         height: 220px !important;
         border: 1px solid #a6a8a9;
         border-bottom: none;
+        width: 50% !important;
     }
 
     .mt-row-second .mt-career:last-child {
@@ -225,6 +226,22 @@ a.kc_button:hover {
 
     .mt-career:after, .mt-career:before, .mt-career:last-child:before, .mt-row-first:after, .mt-row-first:before, .mt-row-second:after, .mt-row-second:before {
         content: none;
+    }
+
+    .ui-tabs-nav:before {
+        content: none !important;
+    }
+
+    .ui-tabs-nav li:after {
+        content: none !important;
+    }
+
+    .image-job-top {
+        margin-bottom: -5px;
+    }
+
+    .mt-career:nth-of-type(odd) {
+        border-right: none;
     }
 }
 
