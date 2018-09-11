@@ -198,16 +198,38 @@ a.kc_button:hover {
     z-index: 1;
 }
 
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 399px) {
     .mt-career {
-        padding-top: 7%;
-        height: 250px !important;
-        padding-left: 0;
-        padding-right: 0;
+        height: 170px !important;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .mt-career {
+        width: 100% !important;
+        border: 1px solid #a6a8a9 !important;
+        border-bottom: none !important;
+        height: 190px !important;
     }
 
-    .ui-tabs .ui-tabs-nav li a {
-        font-size: 13px;
+    .mt-row-second .mt-career:last-child {
+        border-bottom: 1px solid #a6a8a9;
+    }
+
+}
+
+@media screen and (max-width: 649px) {
+    .mt-career {
+        height: 220px !important;
+    }
+
+    .kc_wrap_instagram > ul > li {
+        width: 50%;
+    }
+
+    .kc_wrap_instagram > ul > li:nth-child(5), .kc_wrap_instagram > ul > li:nth-child(6),
+    .kc_wrap_instagram > ul > li:nth-child(7), .kc_wrap_instagram > ul > li:nth-child(8) {
+        display: none;
     }
 }
 
@@ -220,7 +242,7 @@ a.kc_button:hover {
         width: 50% !important;
     }
 
-    .mt-row-second .mt-career:last-child {
+    .mt-row-second .mt-career:last-child, .mt-row-second .mt-career:nth-child(3) {
         border-bottom: 1px solid #a6a8a9;
     }
 
@@ -236,7 +258,7 @@ a.kc_button:hover {
         content: none !important;
     }
 
-    .image-job-top {
+    .image-job {
         margin-bottom: -5px;
     }
 
@@ -245,9 +267,16 @@ a.kc_button:hover {
     }
 }
 
-@media screen and (min-width: 1240px) {
+@media screen and (max-width: 959px) {
+    .mt-career {
+        padding-top: 7%;
+        height: 250px !important;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .ui-tabs .ui-tabs-nav li a {
-        font-size: 16px;
+        font-size: 13px;
     }
 }
 
@@ -259,5 +288,11 @@ a.kc_button:hover {
     .mt-career {
         height: 230px;
         padding-top: 4%;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .ui-tabs .ui-tabs-nav li a {
+        font-size: 16px;
     }
 }
