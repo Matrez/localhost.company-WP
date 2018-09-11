@@ -142,6 +142,7 @@ h2 {
     font-size: 40px;
     line-height: 50px;
     font-weight: 600;
+    overflow-wrap: break-word;
 }
 
 .post-desc {
@@ -230,6 +231,49 @@ h2 {
 
 .excerpt-hellip {
     display: none;
+}
+
+@media screen and (max-width: 399px) {
+    h2 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    #Subheader {
+        height: 12rem;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    #Subheader {
+        height: 15rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .post-photo-wrapper img {
+        width: 100%;
+    }
+
+    #Subheader {
+        height: 20rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .with_aside .content_wrapper {
+        padding-left: 0;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
 }
 
 @media screen and (max-width: 1239px) {
