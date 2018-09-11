@@ -177,4 +177,16 @@ a.tag-cloud-link {
     color: white;
 }
 
+@media screen and (max-width: 767px) {
+    #Top_bar .logo {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1239px) {
+    #Top_bar #logo img {
+        vertical-align: unset;
+    }
+}
+
 /*::selection { background: #ff0000; color: white; }*/
