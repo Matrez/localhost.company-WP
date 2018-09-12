@@ -25,23 +25,82 @@ a.kc_button {
     width: 177px;
 }
 
+@media screen and (max-width: 1800px) {
+    #media-kit-section {
+        background: none;
+
+    }
+}
 @media screen and (max-width: 1700px) {
     #whatWeDoRow {
         margin-top: 20px;
     }
 }
+
 @media screen and (max-width: 1400px) {
     .photo-section .kc-wrap-columns > div:nth-child(2) {
         padding-top: 10px;
     }
 }
+
 @media screen and (max-width: 1300px) {
     .photo-section .kc-wrap-columns > div:nth-child(2) {
         padding-left: 10px;
     }
 }
+
+@media screen and (max-width: 1239px) {
+    #media-kit-section {
+        height: unset;
+    }
+
+    .annual-col, .media-col {
+        padding: 0 15px !important;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     #se-banner-section {
         display: none;
     }
 }
+
+@media screen and (max-width: 959px) {
+    #image-column {
+        width: 100% !important;
+    }
+
+    .image-info-col {
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .image-info-col h4, .image-info-col p {
+        margin-right: 0 !important;
+    }
+
+    .seColumn, .dtColumn, .imColumn, .doColumn {
+        width: 50% !important;
+        margin-top: 0 !important;
+    }
+
+    .dtColumn {
+        border-bottom: 1px solid gray;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .media-col {
+        padding-top: 50px !important;
+    }
+
+    .seColumn, .dtColumn, .imColumn, .doColumn {
+        height: 300px !important;
+    }
+}
+/*
+.annual-col
+.media-col
+*/
