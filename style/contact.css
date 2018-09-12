@@ -1,6 +1,76 @@
 .osrs-link {
     text-decoration: underline;
 }
+
 .osrs-link:hover {
     text-decoration: none !important;
 }
+
+@media screen and (max-width: 1239px) {
+    .empty-form-col, .empty-se-col {
+        display: none;
+    }
+
+    .input-form-col, .contact-col, .info-form-col, .se-col, .contact-col {
+        width: 50% !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .info-form-col .kc-col-container > div:nth-child(3) > h2{
+        margin-top: 30px;
+    }
+
+    .contact-col .kc-col-container > div:first-child {
+        padding-top: 30px;
+    }
+
+    .input-form-col .kc-col-container > div:nth-child(2) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .kc-google-maps, .kc-google-maps > iframe {
+        height: 450px !important;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .se-col {
+        display: none;
+    }
+
+    .contact-col {
+        width: 100% !important;
+        padding-left: 15px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .kc-google-maps, .kc-google-maps > iframe {
+        height: 350px !important;
+    }
+
+    .contact-image-col-first, .contact-image-col-second {
+        width: 50% !important;
+    }
+
+    .info-form-col h2 {
+        margin-top: 30px;
+    }
+
+    .info-form-col, .input-form-col {
+        width: 100% !important;
+    }
+}
+
+/*
+.empty-se-col
+.se-col
+.contact-col
+
+.empty-form-col
+.info-form-col
+.input-form-col
+ */
