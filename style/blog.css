@@ -240,7 +240,7 @@ h2 {
     }
 
     #Subheader {
-        height: 12rem;
+        height: 12rem !important;
     }
 }
 
@@ -251,7 +251,7 @@ h2 {
     }
 
     #Subheader {
-        height: 15rem;
+        height: 15rem !important;
     }
 }
 
