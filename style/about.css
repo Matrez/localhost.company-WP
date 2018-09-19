@@ -18,11 +18,19 @@ a.kc_button {
 
 .seColumn .kc-raw-code, .dtColumn .kc-raw-code, .imColumn .kc-raw-code, .doColumn .kc-raw-code {
     text-align: center;
-    padding-top: 20%;
 }
 
-.imColumn .kc-raw-code svg {
-    width: 177px;
+.imColumn img {
+    filter: invert(1);
+    max-width: 145px !important;
+}
+
+.seColumn .kc-raw-code, .doColumn .kc-raw-code {
+    padding-top: 30%;
+}
+
+.dtColumn .kc-raw-code, .imColumn .kc-raw-code {
+    padding-top: 26%;
 }
 
 @media screen and (max-width: 1800px) {
