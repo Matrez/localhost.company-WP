@@ -7,12 +7,20 @@
     background-color: white !important;
 }
 
+#Content {
+    min-height: 700px;
+}
+
 #Top_bar {
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1);
 }
 
 .search_wrapper {
     display: none !important;
+}
+
+body.search-no-results .content_wrapper {
+    padding-top: 150px;
 }
 
 /* Tables */

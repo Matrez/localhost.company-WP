@@ -21,7 +21,6 @@ a.kc_button {
 }
 
 .imColumn img {
-    filter: invert(1);
     max-width: 145px !important;
 }
 
