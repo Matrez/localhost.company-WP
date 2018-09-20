@@ -15,23 +15,18 @@ h5 {
     text-decoration: none;
 }
 img.image-border {
-    -webkit-transition: transform 0.5s ease;
-    -moz-transition: transform 0.5s ease;
-    -ms-transition: transform 0.5s ease;
-    -o-transition: transform 0.5s ease;
-    transition: transform 0.5s ease;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 img.image-border:hover {
-    -webkit-transform: scale(1.05) rotate(-0.5deg);
-    -moz-transform: scale(1.05) rotate(-0.5deg);
-    -ms-transform: scale(1.05) rotate(-0.5deg);
-    -o-transform: scale(1.05) rotate(-0.5deg);
-    transform: scale(1.05) rotate(-0.5deg);
-    -webkit-transition: transform 0.25s ease;
-    -moz-transition: transform 0.25s ease;
-    -ms-transition: transform 0.25s ease;
-    -o-transition: transform 0.25s ease;
-    transition: transform 0.25s ease;
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;
 }
 @media screen and (max-width: 767px){
     .the_content_wrapper {

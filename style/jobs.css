@@ -133,6 +133,15 @@ a.kc_button.jobsButton:hover {
     color: white !important;
 }
 
+.disabled-job {
+    filter: grayscale(100%);
+    cursor: not-allowed !important;
+}
+
+.disabled-job a {
+    pointer-events: none;
+}
+
 /* test na hover cerveny */
 .mt-career:hover {
     background-color: #e60000 !important;
