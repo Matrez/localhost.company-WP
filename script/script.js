@@ -56,6 +56,7 @@ jQuery(function ($) {
     });
 });
 
+/* add magnifier icon to search bar */
 jQuery(function ($) {
     $('#searchform input.field').attr("placeholder", $.parseHTML("&#xf002;")[0].data);
 });
@@ -70,6 +71,7 @@ jQuery(function ($) {
     })
 });
 
+/* edit visual name of uploaded image on button */
 document.querySelector('.wpcf7-file').onchange = function () {
     let path = this.value;
     path = path.replace(/.*[\/\\]/, '');
