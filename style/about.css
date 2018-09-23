@@ -38,6 +38,7 @@ a.kc_button {
 
     }
 }
+
 @media screen and (max-width: 1700px) {
     #whatWeDoRow {
         margin-top: 20px;
@@ -67,14 +68,18 @@ a.kc_button {
 }
 
 @media screen and (max-width: 1200px) {
-    #se-banner-section {
-        display: none;
+    #se-banner-section .kc-raw-code > div {
+        margin-left: 230px !important;
     }
 }
 
 @media screen and (max-width: 959px) {
     #image-column {
         width: 100% !important;
+    }
+
+    #se-banner-section {
+        display: none;
     }
 
     .image-info-col {
@@ -100,13 +105,84 @@ a.kc_button {
 
 @media screen and (max-width: 767px) {
     .media-col {
-        padding-top: 50px !important;
+        padding-top: 80px !important;
     }
 
     .seColumn, .dtColumn, .imColumn, .doColumn {
-        height: 300px !important;
+        height: 280px !important;
+    }
+
+    .seColumn h4, .dtColumn h4, .imColumn h4, .doColumn h4 {
+        font-size: 19px !important;
+    }
+
+    .seColumn img, .imColumn img {
+        width: 100px;
+    }
+
+    .dtColumn img, .doColumn img {
+        width: 125px;
+    }
+
+    .seColumn .kc-raw-code, .dtColumn .kc-raw-code, .imColumn .kc-raw-code {
+        padding-top: 35px;
+    }
+
+    .doColumn .kc-raw-code {
+        padding-top: 50px;
+    }
+
+    #quotation-section {
+        -webkit-background-size: 200px;
+        background-size: 200px;
     }
 }
+
+@media screen and (max-width: 550px) {
+    .seColumn, .dtColumn, .imColumn, .doColumn {
+        height: 240px !important;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .seColumn, .dtColumn, .imColumn, .doColumn {
+        height: 170px !important;
+    }
+
+    .seColumn img, .imColumn img {
+        width: 70px;
+    }
+
+    .dtColumn img {
+        width: 85px;
+    }
+
+    .doColumn img {
+        width: 100px;
+    }
+
+    .seColumn .kc-raw-code, .dtColumn .kc-raw-code, .imColumn .kc-raw-code {
+        padding-top: 25px;
+    }
+
+    .doColumn .kc-raw-code {
+        padding-top: 35px;
+    }
+
+    .seColumn h4, .dtColumn h4, .imColumn h4, .doColumn h4 {
+        font-size: 13px !important;
+        line-height: 19px !important;
+    }
+
+    .seColumn h4, .doColumn h4, .imColumn h4 {
+        padding-top: 15px !important;
+    }
+
+    .dtColumn h4 {
+        padding-top: 5px !important;
+    }
+}
+
 /*
 .annual-col
 .media-col

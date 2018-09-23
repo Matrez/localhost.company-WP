@@ -269,13 +269,16 @@ a.kc_button:hover {
         content: none !important;
     }
 
-
     .mt-career:nth-of-type(odd) {
         border-right: none;
     }
 
     .culture-col {
         padding-left: 0 !important;
+    }
+
+    #jobsAnnotation br {
+        display: none;
     }
 }
 
@@ -298,5 +301,21 @@ a.kc_button:hover {
     .mt-career {
         padding-top: 30px;
         height: 150px !important;
+    }
+
+    .mt-row-first h3, .mt-row-second h3 {
+        font-size: 14px;
+    }
+
+    .mt-row-first a, .mt-row-second a {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    .mt-career {
+        padding-top: 20px;
+        height: 130px !important;
     }
 }

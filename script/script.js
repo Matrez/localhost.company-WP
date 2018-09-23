@@ -66,7 +66,7 @@ jQuery(function ($) {
     $('.jobsButton').click(function (e) {
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: $('#jobsAnotation').offset().top - 25
+            scrollTop: $('#jobsAnnotation').offset().top - 25
         }, 750);
     })
 });

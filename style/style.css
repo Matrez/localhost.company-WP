@@ -173,6 +173,10 @@ a.tag-cloud-link {
     padding-left: 0 !important;
 }
 
+body.single-post #Content .section-post-header .single-photo-wrapper {
+    display: none;
+}
+
 /* Image Styling */
 .image-border {
     border: 1px solid #a4a7a9;
@@ -189,15 +193,21 @@ a.tag-cloud-link {
     color: white;
 }
 
+@media screen and (max-width: 1239px) {
+    #Top_bar #logo img {
+        vertical-align: unset;
+    }
+}
+
 @media screen and (max-width: 767px) {
     #Top_bar .logo {
         margin-left: 0;
     }
 }
 
-@media screen and (max-width: 1239px) {
-    #Top_bar #logo img {
-        vertical-align: unset;
+@media screen and (max-width: 479px) {
+    .phone-number {
+        font-size: 24px !important;
     }
 }
 

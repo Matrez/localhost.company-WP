@@ -260,6 +260,10 @@ h2 {
     #Subheader {
         height: 20rem;
     }
+
+    .widget-area {
+        padding-top: 0;
+    }
 }
 
 @media screen and (max-width: 499px) {
