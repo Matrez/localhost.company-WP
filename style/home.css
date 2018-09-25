@@ -93,6 +93,10 @@ a.kc_button {
     .delivery-section .kc-wrap-columns > div:nth-child(2) {
         margin-top: 0;
     }
+
+    .responsive-h4 {
+        font-size: 15px !important;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -120,5 +124,9 @@ a.kc_button {
 @media screen and (max-width: 479px) {
     #about-section .locally-h2 {
         padding-left: 0 !important;
+    }
+
+    .responsive-h4 {
+        font-size: 13px !important;
     }
 }
