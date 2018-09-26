@@ -6,6 +6,26 @@ a.kc_button {
     margin-left: 0;
 }
 
+.tp-bullet:nth-child(1) {
+    left: 27px !important;
+    top: -27px !important;
+}
+
+.tp-bullet:nth-child(2) {
+    left: 27px !important;
+    top: 0 !important;
+}
+
+.tp-bullet:nth-child(3) {
+    left: 54px !important;
+    top: 0 !important;
+}
+
+.tp-bullet:nth-child(4) {
+    left: 54px !important;
+    top: -27px !important;
+}
+
 @media screen and (max-width: 1700px) {
     .people-project-section {
         background: none !important;
