@@ -8,7 +8,7 @@ a.kc_button {
 
 .tp-bullet:nth-child(1) {
     left: 27px !important;
-    top: -27px !important;
+    top: -17px !important;
 }
 
 .tp-bullet:nth-child(2) {
@@ -17,13 +17,13 @@ a.kc_button {
 }
 
 .tp-bullet:nth-child(3) {
-    left: 54px !important;
+    left: 44px !important;
     top: 0 !important;
 }
 
 .tp-bullet:nth-child(4) {
-    left: 54px !important;
-    top: -27px !important;
+    left: 44px !important;
+    top: -17px !important;
 }
 
 @media screen and (max-width: 1700px) {
