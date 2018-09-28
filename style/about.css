@@ -32,6 +32,10 @@ a.kc_button {
     padding-top: 26%;
 }
 
+.br-under479 {
+    display: none;
+}
+
 @media screen and (max-width: 1800px) {
     #media-kit-section {
         background: none;
@@ -185,6 +189,15 @@ a.kc_button {
     #whatWeDoRow h2 {
         font-size: 27px;
         line-height: 28px;
+    }
+
+    .media-col {
+        padding-top: 60px !important;
+    }
+
+    .media-col, .annual-col {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
 }
 

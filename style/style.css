@@ -12,7 +12,7 @@
 }
 
 #Top_bar {
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 .search_wrapper {
@@ -193,6 +193,11 @@ body.single-post #Content .section-post-header .single-photo-wrapper {
     color: white;
 }
 
+/*<br> tag styling*/
+.br-under479 {
+    display: none;
+}
+
 @media screen and (max-width: 1239px) {
     #Top_bar #logo img {
         vertical-align: unset;
@@ -205,10 +210,29 @@ body.single-post #Content .section-post-header .single-photo-wrapper {
     }
 }
 
+@media screen and (max-width: 599px) {
+    #Footer p.big {
+        line-height: 30px;
+    }
+}
+
 @media screen and (max-width: 479px) {
     .phone-number {
         font-size: 24px !important;
     }
+
+    .br-under479 {
+        display: block;
+    }
+
+    .br-over479 {
+        display: none;
+    }
 }
 
+/*@media screen and (max-width: 399px) {*/
+    /*.disapear-dot {*/
+        /*display: none;*/
+    /*}*/
+/*}*/
 /*::selection { background: #ff0000; color: white; }*/

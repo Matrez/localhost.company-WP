@@ -6,6 +6,26 @@ a.kc_button {
     margin-left: 0;
 }
 
+.tp-bullet:nth-child(1) {
+    left: 27px !important;
+    top: -17px !important;
+}
+
+.tp-bullet:nth-child(2) {
+    left: 27px !important;
+    top: 0 !important;
+}
+
+.tp-bullet:nth-child(3) {
+    left: 44px !important;
+    top: 0 !important;
+}
+
+.tp-bullet:nth-child(4) {
+    left: 44px !important;
+    top: -17px !important;
+}
+
 @media screen and (max-width: 1700px) {
     .people-project-section {
         background: none !important;
@@ -93,6 +113,10 @@ a.kc_button {
     .delivery-section .kc-wrap-columns > div:nth-child(2) {
         margin-top: 0;
     }
+
+    .responsive-h4 {
+        font-size: 15px !important;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -124,5 +148,9 @@ a.kc_button {
 
     .delivery-section {
         margin-top: 30px;
+    }
+
+    .responsive-h4 {
+        font-size: 13px !important;
     }
 }

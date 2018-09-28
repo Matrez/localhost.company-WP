@@ -311,11 +311,27 @@ a.kc_button:hover {
         font-size: 12px;
         padding: 8px 15px;
     }
+    .life-at-lh {
+        font-size: 34px;
+        line-height: 30px;
+    }
 }
 
 @media screen and (max-width: 399px) {
     .mt-career {
         padding-top: 20px;
         height: 130px !important;
+    }
+
+    .life-at-lh {
+        font-size: 28px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 349px) {
+    .life-at-lh {
+        font-size: 24px;
+        line-height: 20px;
     }
 }
