@@ -26,6 +26,11 @@ a.kc_button {
     top: -17px !important;
 }
 
+.custom .tp-bullet {
+    width: 13px;
+    height: 13px;
+}
+
 @media screen and (max-width: 1700px) {
     .people-project-section {
         background: none !important;
