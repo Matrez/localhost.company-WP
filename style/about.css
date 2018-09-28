@@ -181,6 +181,11 @@ a.kc_button {
     .dtColumn h4 {
         padding-top: 5px !important;
     }
+
+    #whatWeDoRow h2 {
+        font-size: 27px;
+        line-height: 28px;
+    }
 }
 
 /*

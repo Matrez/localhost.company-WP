@@ -121,4 +121,8 @@ a.kc_button {
     #about-section .locally-h2 {
         padding-left: 0 !important;
     }
+
+    .delivery-section {
+        margin-top: 30px;
+    }
 }

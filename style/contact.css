@@ -52,8 +52,8 @@
         height: 350px !important;
     }
 
-    .contact-image-col-first, .contact-image-col-second {
-        width: 50% !important;
+    #image-section {
+        display: none;
     }
 
     .info-form-col h2 {
