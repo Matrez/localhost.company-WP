@@ -198,6 +198,10 @@ body.single-post #Content .section-post-header .single-photo-wrapper {
     display: none;
 }
 
+.share-job-link {
+
+}
+
 @media screen and (max-width: 1239px) {
     #Top_bar #logo img {
         vertical-align: unset;

@@ -199,6 +199,11 @@ a.kc_button {
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
+
+    #quotation-section {
+        -webkit-background-size: 100px;
+        background-size: 100px;
+    }
 }
 
 /*
