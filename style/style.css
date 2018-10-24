@@ -198,8 +198,24 @@ body.single-post #Content .section-post-header .single-photo-wrapper {
     display: none;
 }
 
-.share-job-link {
+.share-job {
+    display: flex;
+}
 
+.share-job > .kc-raw-code {
+    align-self: flex-end;
+}
+
+.share-job h4 {
+    font-size: 25px;
+    line-height: 29px;
+    margin-right: 5px;
+}
+
+.share-job a {
+    font-size: 25px;
+    line-height: 29px;
+    margin-right: 5px;
 }
 
 @media screen and (max-width: 1239px) {
