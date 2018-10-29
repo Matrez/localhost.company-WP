@@ -207,15 +207,24 @@ body.single-post #Content .section-post-header .single-photo-wrapper {
 }
 
 .share-job h4 {
-    font-size: 25px;
-    line-height: 29px;
+    font-size: 16px;
+    line-height: 16px;
     margin-right: 5px;
+    color: black;
 }
 
 .share-job a {
-    font-size: 25px;
+    font-size: 26px;
     line-height: 29px;
-    margin-right: 5px;
+}
+
+.share-job a:nth-of-type(4) {
+    margin-right: 12px;
+}
+
+/* remove pinterest share button from blog posts */
+.icons a.pinterest {
+    display: none;
 }
 
 @media screen and (max-width: 1239px) {
@@ -247,6 +256,10 @@ body.single-post #Content .section-post-header .single-photo-wrapper {
 
     .br-over479 {
         display: none;
+    }
+
+    .share-job a:first-of-type {
+        margin-left: -10px;
     }
 }
 
