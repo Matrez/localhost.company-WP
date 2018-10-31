@@ -8,6 +8,12 @@
     }
 }
 
+@media screen and (max-width: 767px) {
+    .kc-animated, .kc-animate-eff-fadeInLeft, .kc-animate-eff-fadeInRight, .kc-animate-eff-fadeInUp {
+        animation: none !important;
+    }
+}
+
 @media screen and (max-width: 499px) {
     #first-section {
         display: none;
