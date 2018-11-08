@@ -2,6 +2,24 @@ a.kc_button {
     text-decoration: none;
 }
 
+a.styled-anchor {
+    text-decoration: none;
+    -webkit-transition: background-color 350ms;
+    -moz-transition: background-color 350ms;
+    -ms-transition: background-color 350ms;
+    -o-transition: background-color 350ms;
+    transition: background-color 350ms;
+}
+
+a.styled-anchor:hover {
+    background-color: #c20000 !important;
+    -webkit-transition: background-color 350ms;
+    -moz-transition: background-color 350ms;
+    -ms-transition: background-color 350ms;
+    -o-transition: background-color 350ms;
+    transition: background-color 350ms;
+}
+
 .people-project {
     margin-left: 0;
 }
