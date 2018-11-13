@@ -49,6 +49,13 @@ a.styled-anchor:hover {
     height: 13px;
 }
 
+.seo-h1 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
 @media screen and (max-width: 1700px) {
     .people-project-section {
         background: none !important;
@@ -119,6 +126,11 @@ a.styled-anchor:hover {
     .kc-pie-chart-wrapper {
         margin-top: 20px !important;
     }
+
+    .seo-h1 {
+        font-size: 17px;
+        line-height: 20px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -139,6 +151,11 @@ a.styled-anchor:hover {
 
     .responsive-h4 {
         font-size: 15px !important;
+    }
+
+    .seo-h1 {
+        font-size: 15px;
+        line-height: 19px;
     }
 }
 
@@ -175,5 +192,10 @@ a.styled-anchor:hover {
 
     .responsive-h4 {
         font-size: 13px !important;
+    }
+
+    .seo-h1 {
+        font-size: 13px;
+        line-height: 19px;
     }
 }
